@@ -2,20 +2,20 @@
 
 Bu proje, metinlerdeki duyguları analiz eden gelişmiş bir Python uygulamasıdır. Hem Türkçe hem İngilizce destekli, performans odaklı bir duygu analizi aracıdır.
 
-## 🚀 Özellikler
+## Özellikler
 
-- 📝 **Çok Dilli Destek**: Türkçe ve İngilizce metin analizi
-- 🎭 **5 Duygu Kategorisi**: Happy, Angry, Surprise, Sad, Fear
-- 📊 **Görsel Sonuçlar**: Çubuk grafiklerle duygu skorları
-- 🎯 **Baskın Duygu Tespiti**: En yüksek skorlu duygu
-- 💬 **İnteraktif Arayüz**: Kolay kullanım
-- ⚡ **Yüksek Performans**: Caching ve lazy loading
-- 🌐 **Web API**: FastAPI ile REST API
-- 🐳 **Docker Desteği**: Kolay deployment
-- 📈 **Logging**: Detaylı log sistemi
-- 🧪 **Kapsamlı Testler**: Unit testler ve coverage
+-  **Çok Dilli Destek**: Türkçe ve İngilizce metin analizi
+-  **5 Duygu Kategorisi**: Happy, Angry, Surprise, Sad, Fear
+-  **Görsel Sonuçlar**: Çubuk grafiklerle duygu skorları
+-  **Baskın Duygu Tespiti**: En yüksek skorlu duygu
+-  **İnteraktif Arayüz**: Kolay kullanım
+-  **Yüksek Performans**: Caching ve lazy loading
+-  **Web API**: FastAPI ile REST API
+-  **Docker Desteği**: Kolay deployment
+-  **Logging**: Detaylı log sistemi
+-  **Kapsamlı Testler**: Unit testler ve coverage
 
-## 📦 Kurulum
+##  Kurulum
 
 ### 1. Temel Kurulum
 ```bash
@@ -47,7 +47,7 @@ docker run -p 8000:8000 text2emotion
 docker-compose up -d
 ```
 
-## 🎯 Kullanım
+##  Kullanım
 
 ### Komut Satırı Arayüzü
 ```bash
@@ -80,7 +80,7 @@ analysis = analyzer.analyze_with_details("Bugün çok mutluyum!")
 print(analysis)
 ```
 
-## 🌐 API Endpoints
+##  API Endpoints
 
 ### POST /analyze
 Metin duygu analizi yapar.
@@ -117,7 +117,7 @@ API sağlık kontrolü.
 ### GET /languages
 Desteklenen dilleri listeler.
 
-## 🧪 Testler
+##  Testler
 
 ### Temel Testler
 ```bash
@@ -130,14 +130,14 @@ python test_turkish_emotion.py
 python test_coverage.py
 ```
 
-## 📊 Performans
+##  Performans
 
 - **Caching**: LRU cache ile tekrarlanan işlemler hızlandırılır
 - **Lazy Loading**: Türkçe analizör sadece gerektiğinde yüklenir
 - **Memory Optimization**: Bellek kullanımı optimize edilmiştir
 - **Processing Time**: İşlem süreleri loglanır
 
-## 🐳 Docker
+##  Docker
 
 ### Build
 ```bash
@@ -167,7 +167,7 @@ logs/text2emotion_20241201.log
 curl http://localhost:8000/health
 ```
 
-## 🔧 Geliştirme
+##  Geliştirme
 
 ### Yeni Duygu Kelimesi Ekleme
 `turkish_emotion_analyzer.py` dosyasındaki `emotion_words` sözlüğüne yeni kelimeler ekleyebilirsiniz.
@@ -187,18 +187,12 @@ curl http://localhost:8000/health
 - uvicorn==0.24.0
 - pydantic==2.5.0
 
-## 🤝 Katkıda Bulunma
 
-1. Fork edin
-2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
-3. Commit edin (`git commit -m 'Add amazing feature'`)
-4. Push edin (`git push origin feature/amazing-feature`)
-5. Pull Request oluşturun
 
-## 📄 Lisans
-
-Bu proje MIT lisansı altında açık kaynak kodludur.
-
-## 🆘 Destek
+## Destek
 
 Sorunlarınız için GitHub Issues kullanın veya email gönderin.
+
+## Lisans
+
+Bu proje MIT lisansı altında açık kaynak kodludur.
