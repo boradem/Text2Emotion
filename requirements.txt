@@ -1,0 +1,3 @@
+text2emotion==0.0.5
+nltk==3.8.1
+emoji==1.7.0
