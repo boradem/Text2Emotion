@@ -4,11 +4,11 @@ Bu proje, metinlerdeki duyguları analiz eden bir Python uygulamasıdır. `text2
 
 ## Özellikler
 
-- 📝 Metin temizleme ve ön işleme
-- 🎭 5 farklı duygu kategorisi analizi (Happy, Angry, Surprise, Sad, Fear)
-- 📊 Görsel duygu skorları
-- 🎯 Baskın duygu tespiti
-- 💬 İnteraktif kullanıcı arayüzü
+- Metin temizleme ve ön işleme
+-  5 farklı duygu kategorisi analizi (Happy, Angry, Surprise, Sad, Fear)
+-  Görsel duygu skorları
+-  Baskın duygu tespiti
+-  İnteraktif kullanıcı arayüzü
 
 ## Kurulum
 
